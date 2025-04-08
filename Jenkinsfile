@@ -16,5 +16,13 @@ pipeline {
                 '''
             }
         }
+        stage('Test') {
+            
+            steps {
+                sh '''
+                    echo "npm test"
+                '''
+            }
+        }
     }
 }
