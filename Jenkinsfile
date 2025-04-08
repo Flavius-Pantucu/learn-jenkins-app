@@ -20,7 +20,7 @@ pipeline {
             
             steps {
                 sh '''
-                    echo "npm test"
+                    echo "test -f build/index.html"
                 '''
             }
         }
